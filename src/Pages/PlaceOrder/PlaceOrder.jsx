@@ -12,12 +12,12 @@ const [data,setData] = useState({
   firstName:"",
   lastName:"",
   email:"",
-  street:"",
-  city:"",
-  state:"",
-  zipcode:"",
+  phone:"",
   country:"",
-  phone:""
+  county:"",
+  subcounty:"",
+  city:"",
+  postalcode:""
 })
 
 const onChangeHandler = (event) =>{
@@ -72,16 +72,16 @@ useEffect(()=>{
               <input required name='lastName' onChange={onChangeHandler} value={data.lastName} type="text" placeholder='last Name' />
             </div>
             <input required name='email' onChange={onChangeHandler} value={data.email} type="email" placeholder='Email Address' />
-            <input required name='street' onChange={onChangeHandler} value={data.street} type="text" placeholder='street' />
+            <input required name='phone' onChange={onChangeHandler} value={data.street} type="text" placeholder='Telphone' />
             <div className="multi-fields">
-              <input required name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City' />
-              <input required name='state' onChange={onChangeHandler} value={data.state} type="text" placeholder='State' /> 
-            </div>
-            <div className="multi-fields">
-              <input required name='zipcode' onChange={onChangeHandler} value={data.zipcode} type="text" placeholder='zipcode' />
               <input required name='country' onChange={onChangeHandler} value={data.country} type="text" placeholder='Country' />
+              <input required name='county' onChange={onChangeHandler} value={data.county} type="text" placeholder='County' /> 
             </div>
-            <input required name='phone' onChange={onChangeHandler} value={data.phone} type="text" placeholder='phone' />
+            <div className="multi-fields">
+              <input required name='subcounty' onChange={onChangeHandler} value={data.subcounty} type="text" placeholder='Sub County' />
+              <input required name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City' />
+            </div>
+            <input required name='postalcode' onChange={onChangeHandler} value={data.postalcode} type="text" placeholder='Postal Code' />
       </div>
       <div className="place-order-right">
       <div className="cart-total">

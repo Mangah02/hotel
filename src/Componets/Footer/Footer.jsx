@@ -28,7 +28,7 @@ const Footer = () => {
            <h2>Get In Touch</h2> 
            <ul>
             <li>+2540702862932</li>
-            <li>info@breezhotel.co.ke</li>
+            <li>jmanga86@gmail.com</li>
            </ul>
         </div>
       </div>
