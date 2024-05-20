@@ -29,5 +29,7 @@ frondent overview
 
               footer
               
-<img width="898" alt="footer" src="https://github.com/Mangah02/hotel/assets/99649198/23a83db1-5f7e-4290-ac3a-b52e5abfd700">
+
+<img width="700" alt="footer" src="https://github.com/Mangah02/hotel/assets/99649198/e7737408-14e8-430a-88b8-c5d47aa71053">
+
 
