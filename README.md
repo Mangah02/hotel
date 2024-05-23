@@ -12,7 +12,9 @@ or email:jmanga86@gmail.com
 frondent overview
 
                              homepage
-                             <img width="815" alt="homepage" src="https://github.com/Mangah02/hotel/assets/99649198/5f6ad25b-e912-4f04-8107-d26e5e7a3eb7">
+
+                             
+<img width="815" alt="homepage" src="https://github.com/Mangah02/hotel/assets/99649198/d0ea8d5d-bbd6-47e1-814a-0834801b633e">
 
 
 
@@ -30,7 +32,9 @@ frondent overview
 
 
               footer
-              <img width="822" alt="footer" src="https://github.com/Mangah02/hotel/assets/99649198/5c069bc2-be09-4b47-96ef-c70ed69ff2c5">
+
+  <img width="822" alt="footer" src="https://github.com/Mangah02/hotel/assets/99649198/31f6c05d-f30a-49be-958f-68c5c2fd3ebe">
+
 
 
 
