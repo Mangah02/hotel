@@ -1,0 +1,12 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+.about-us p{
+    font-size: 25px;
+    font-weight: 600;
+    color: green;
+    width: 80%;
+    margin-left: 300px;
+    gap: 20px;
+}

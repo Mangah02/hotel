@@ -8,6 +8,9 @@ import Footer from './Componets/Footer/Footer'
 import LoginPopup from './Componets/LoginPopup/LoginPopup'
 import Verify from './Pages/Verify/Verify'
 import MyOrders from './Pages/MyOrders/MyOrders'
+import AboutUs from './Pages/AboutUs/AboutUs'
+import Shipping from './Pages/Shipping/Shipping'
+import Privacy from './Pages/Privacy/Privacy'
 
 const App = () => {
 
@@ -24,6 +27,9 @@ const [showLogin,setShowLogin] = useState(false)
         <Route path='/order' element={<Placeorder/>} />
         <Route path='/verify' element={<Verify/>} />
         <Route path='/myorders' element={<MyOrders/>} />
+        <Route path='/aboutus' element={<AboutUs/>} />
+        <Route path='/shipping' element={<Shipping/>} />
+        <Route path='/privacy' element={<Privacy/>} />
       </Routes>
     </div>
     <Footer/>

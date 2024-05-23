@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import {assets} from '../../assets/assets'
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -18,10 +19,10 @@ const Footer = () => {
         <div className="footer-content-center">
              <h2>Company</h2>
              <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+             <Link to='/'><li>Home</li> </Link>
+               <Link to='/aboutus'><li>About Us</li></Link> 
+                <Link to='/shipping'><li>Shipping policy</li></Link>
+               <Link to='/privacy'><li>Privacy policy</li></Link> 
              </ul>
         </div>
         <div className="footer-content-right">
@@ -33,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 @breezhotel.co.ke - All Right Reserved</p>
+      <p className="footer-copyright">Copyright @2024 - All Right Reserved. Developed by Joel Manga</p>
     </div>
   )
 }
