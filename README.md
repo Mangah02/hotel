@@ -12,8 +12,9 @@ or email:jmanga86@gmail.com
 frondent overview
 
                              homepage
-                             
-<img width="863" alt="homepage" src="https://github.com/Mangah02/hotel/assets/99649198/4255569c-ef66-476d-98c3-7307a3405351">
+                             <img width="815" alt="homepage" src="https://github.com/Mangah02/hotel/assets/99649198/5f6ad25b-e912-4f04-8107-d26e5e7a3eb7">
+
+
 
 
 
@@ -21,15 +22,17 @@ frondent overview
 
                                      menu
                                      
-<img width="834" alt="menu" src="https://github.com/Mangah02/hotel/assets/99649198/e5049daa-35ce-4db9-9453-2b46e3b52a02">
+<img width="834" alt="menu" src="https://github.com/Mangah02/hotel/assets/99649198/74f17d32-d929-4940-80e4-c6c7e1d66848">
+
 
 
 
 
 
               footer
-              
+              <img width="822" alt="footer" src="https://github.com/Mangah02/hotel/assets/99649198/5c069bc2-be09-4b47-96ef-c70ed69ff2c5">
 
-<img width="700" alt="footer" src="https://github.com/Mangah02/hotel/assets/99649198/e7737408-14e8-430a-88b8-c5d47aa71053">
+
+
 
 
