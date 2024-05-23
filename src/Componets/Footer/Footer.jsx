@@ -12,7 +12,7 @@ const Footer = () => {
             <p>Best and delicious food, All the Time.</p>
             <div className="footer-social-icon">
               <a href="https://web.facebook.com/joel.ngunjiri.9"><img src={assets.facebook_icon} alt="" /></a>  
-                <a href="https://x.com/joel_mangah"></a><img src={assets.twitter_icon} alt="" />
+                <a href="https://x.com/joel_mangah"><img src={assets.twitter_icon} alt="" /></a>
               <a href="https://www.linkedin.com/in/joel-manga-68698311b/"><img src={assets.linkedin_icon} alt="" /></a>  
             </div>
         </div>
