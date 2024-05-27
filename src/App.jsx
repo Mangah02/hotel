@@ -11,6 +11,7 @@ import MyOrders from './Pages/MyOrders/MyOrders'
 import AboutUs from './Pages/AboutUs/AboutUs'
 import Shipping from './Pages/Shipping/Shipping'
 import Privacy from './Pages/Privacy/Privacy'
+import SearchBar from './Componets/Search/SearchBar'
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const [showLogin,setShowLogin] = useState(false)
         <Route path='/aboutus' element={<AboutUs/>} />
         <Route path='/shipping' element={<Shipping/>} />
         <Route path='/privacy' element={<Privacy/>} />
+        <Route path='/search' element={<SearchBar/>} />
       </Routes>
     </div>
     <Footer/>
