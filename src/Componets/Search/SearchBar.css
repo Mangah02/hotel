@@ -1,19 +1,19 @@
 .search{
     background-color: greenyellow;
-    width: 50%;
-    border-radius: 10px;
-    height: 2.5rem;
+    width: 46%;
+    border-radius: 4px;
+    height: 50px;
     padding: 0 15px;
-    box-shadow: 0px 8px #ddd;
+    box-shadow: 0px 1px #ddd;
     display: flex;
     align-items: center;
 }
 input{
     background-color: transparent;
     border: none;
-    height: 100%;
-    font-size: 1.25rem;
-    width: 70%;
+    height: 50%;
+    font-size: 20px;
+    width: 100%;
     margin-left: 5px;
 }
 input:focus{
@@ -21,4 +21,20 @@ input:focus{
 }
 #search-icon{
     color: royalblue;
+}
+@media (max-width:800px) {
+    .search{
+        border-radius: 0px;
+        box-shadow: 0px 2px;
+        height: 1.5rem;
+        font-size: 10px;
+    }
+    input{
+        font-size: 15px;
+    }
+}
+@media (max-width:500px) {
+    input{
+        display: none;
+    }
 }

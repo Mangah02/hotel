@@ -14,7 +14,7 @@ const Cart =  () => {
 const navigate = useNavigate();
 
   return (
-    <div className='cart'>
+    <div className='cart' >
       <div className="cart-items">
         <div className="cart-items-title">
           <p>Items</p>
@@ -55,12 +55,12 @@ const navigate = useNavigate();
         <hr />
         <div className="cart-total-details">
             <p>Delivery Fee</p>
-            <p>Ksh {getTotalCartAmount()===0?0:200}</p>
+            <p>Ksh {getTotalCartAmount()===0?0:100}</p>
         </div>
         <hr />
         <div className="cart-total-details">
             <b>Total</b>
-            <b>Ksh {getTotalCartAmount()===0?0:getTotalCartAmount()+200}</b>
+            <b>Ksh {getTotalCartAmount()===0?0:getTotalCartAmount()+100}</b>
         </div>
         </div>
       <button onClick={()=>navigate('/order')} >Proceed To Checkout</button>

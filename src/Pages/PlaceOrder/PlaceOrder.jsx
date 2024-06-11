@@ -39,7 +39,7 @@ const placeOrder = async (event) =>{
    let orderData = {
     address:data,
     items:orderItems,
-    amount:getTotalCartAmount()+200,
+    amount:getTotalCartAmount()+100,
    }
    let response = await axios.post(url+"/api/order/place",orderData,{headers:{token}});
    if (response.data.success) {
@@ -94,12 +94,12 @@ useEffect(()=>{
         <hr />
         <div className="cart-total-details">
             <p>Delivery Fee</p>
-            <p>Ksh {getTotalCartAmount()===0?0:200}</p>
+            <p>Ksh {getTotalCartAmount()===0?0:100}</p>
         </div>
         <hr />
         <div className="cart-total-details">
             <b>Total</b>
-            <b>Ksh  {getTotalCartAmount()===0?0:getTotalCartAmount()+200}</b>
+            <b>Ksh  {getTotalCartAmount()===0?0:getTotalCartAmount()+100}</b>
         </div>
         </div>
       <button type='submit' >Proceed To Payment</button>
