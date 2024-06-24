@@ -79,6 +79,9 @@ useEffect(()=>{
             </div>
             <div className="multi-fields">
               <input required name='subcounty' onChange={onChangeHandler} value={data.subcounty} type="text" placeholder='Sub County' />
+
+
+
               <input required name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City' />
             </div>
             <input required name='postalcode' onChange={onChangeHandler} value={data.postalcode} type="text" placeholder='Postal Code' />
